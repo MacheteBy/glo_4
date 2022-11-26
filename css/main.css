@@ -1,0 +1,62 @@
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: "Proxima Nova", sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.header h1{
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.element{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+}
+
+.element img{
+  height: 210px;
+  width: 263px;
+}
+
+.element_name_prod{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.element_price{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.element_wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.element_price, .element_name_prod, .element_btn, .element_img{
+  display: flex;
+  justify-content: center;
+}
+
+
+.btn{
+  text-align: center;
+  color: #23bac1;
+  border: 3px solid #23bac1;
+  background-color: transparent;
+  width: 200px;
+  height: 55px;
+  font-size: 13px;
+  font-weight: 700;
+}
